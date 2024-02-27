@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RoomDatabaseCrud</string>
+    <string name="TaskManagement">Task Management</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Note"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note Title"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_Task_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter Title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION:"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_Task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_Update"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:hint="Enter Description"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        />
+
+
+</LinearLayout>
